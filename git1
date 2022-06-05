@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+void exfunction();
+
+int main()
+{
+        cout<<" 1'st git commit program "<<endl;   //its 'one line command..'
+        cout<<" im Rocket Raja..its my own \n";    /* 'multi line command..' */
+        exfunction();
+        return 0;
+}
+void exfunction() //example user input function..
+{
+        char name[20];
+        cout<<"enter your name : ";
+        cin>> name;
+        cout<<"your name is : "<<name;
+}
+

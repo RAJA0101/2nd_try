@@ -1,0 +1,5 @@
+ I meet some ERROR's & SOLUTION's:
+
+ 1) git reinitialized existing git repository ?
+	1. rm -rf .git
+	2. git init
